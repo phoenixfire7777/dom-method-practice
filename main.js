@@ -21,6 +21,6 @@ mainElement.append(linkElement)
 bodyElement.append(mainElement)
 // create an addEventListener that removes the Main element when the button is clicked
 buttonElement.addEventListener('click', function () {
-
+    mainElement.remove()
 
 })
